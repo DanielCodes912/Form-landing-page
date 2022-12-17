@@ -1,0 +1,88 @@
+body{
+   background-color: #40bfcb;
+}
+
+h1{
+  font-family: 'LeoArrowRegular';
+   font-weight: bolder;
+   font-style: normal;
+   text-align: center;
+   text-transform: capitalize;
+}
+h1{
+  border: 1px outset #F1ECDD;
+  padding: 8px;
+  border-radius: 10px;
+}
+.appreciating{
+  font-family: 'AveriaRegular';
+   font-weight: normal;
+   font-style: normal;
+  background-color: #f6d987;
+  border: 2px solid #f6d987;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+h2{
+  font-family: 'LeoArrowRegular';
+   font-weight: bolder;
+   font-style: normal;
+}
+#itemone{
+  text-decoration: overline;
+}
+p{
+  font-family: 'JelleeBold';
+   font-weight: normal;
+   font-style: normal;
+}
+#Feedback{
+  font-family: 'PetitFormalScriptRegular';
+font-size: 2.33em;
+color: #ffffff;
+background-color: #000F47;
+font-style: italic;
+text-align: center;
+padding-top: 199px;
+padding-left: 70px;
+padding-right: 70px;
+padding-bottom: 175px;
+}
+
+a:hover{
+  color:red;
+  text-decoration: underline;
+  color: red;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  font-family: 'NimbusSanLRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* This transforms the font of the radio button label */
+label{
+  font-family: 'NimbusSanLRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* the comment box section */
+.comment{
+  border: 2px outset grey;
+  border-radius: 7px;
+  background-color: #F8EDE8;
+}
+
+/* Login button */
+.res{
+  border-radius: 12px;
+  background-color:#f6d987;
+  padding: 4px;
+}
