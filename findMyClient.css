@@ -1,0 +1,83 @@
+body{
+  background-color: #C1C2C5;
+  border: 20px solid #E4F6FF;
+  border-top: 0px;
+  border-radius: 12px;
+  margin:0px;
+}
+
+h1{
+  font-family: 'AvaraBold';
+   font-weight: bolder;
+   font-style: normal;
+   text-align: center;
+}
+
+
+/* h3 element */
+h3{
+  font-family: 'AvaraBold';
+   font-weight: bold;
+   font-style: normal;
+   text-align: center;
+}
+/* p element */
+p{
+  font-family: 'LibreBaskervilleRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 9px;
+}
+
+/* form-margin */
+form{
+  margin: 7px;
+}
+#Fnames{
+  border-radius: 4px;
+  border: 2px solid #868686;
+}
+/* radio  */
+.radio{
+  margin-left: 25px;
+}
+/* btn */
+.btn{
+  background-color: #3B89E3;
+  border: 3px groove #868686;
+  border-radius: 15px;
+  padding: 7px;
+  color: white;
+}
+#comments{
+  border: 2px outset #868686;
+  border-radius: 5px;
+}
+.pay{
+background-color:  #3B89E3;
+color: white;
+padding: 9px;
+border: 3px groove #868686;
+border-radius: 6px;
+}
+
+/* verification page */
+#response{
+  font-family: 'AlexBrushRegular';
+   font-weight: bolder;
+   font-style: normal;
+   font-size: 78px;
+   text-transform: capitalize;
+   text-align: center;
+   padding-top: 50px;
+   color: crimson;
+}
+#comment{
+  font-family: 'RavaliItalic';
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: crimson;
+}

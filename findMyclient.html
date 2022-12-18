@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contract</title>
+    <link rel="stylesheet" href="businessForm.css">
+    <!-- h1 tag only -->
+   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/avara" type="text/css"/>
+   <!-- h2 tag -->
+   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/libre-baskerville" type="text/css"/>
+  </head>
+  <body>
+    <h1>Clients Signup Form</h1>
+    <p>Please note: First Name, Last Name, Password, and Email are required</p>
+    <br>
+    <form class="" action="contractVerifierPage.html" method="get">
+      <label for="First">First Name:</label>
+      <input type="text" id="Fnames" name="name" placeholder="First Name" required>
+      <label for="Last">Last Name:</label>
+      <input type="text" id="Fnames" name="name" placeholder="Last Name" required>
+      <br>
+      <label for="Email">Email:</label>
+      <input type="gmail" id="Fnames" name="gmail" placeholder="yourname@gmail.com" required><br>
+      <label for="Password">Password:</label>
+      <input type="password" id="Fnames" name="password" placeholder="password" required>
+
+        <br>
+        <!-- Radio button -->
+        <p>
+          Have you read the <strong>terms and conditions </strong>before uploading the required
+            folder for us to put in creating your desired website?
+          </p><div class="radio">
+            <label for="yes">Yes:</label>
+            <input type="radio" name="vaild" value="">
+            <label for="no">No:</label>
+            <input type="radio" name="vaild" value="">
+            <br>
+            </div>
+
+                <!-- File uploading -->
+                <h2>Upload your file content for your website here</h2>
+                <div class="radio">
+                <input class="btn" type="file" class="form-control-file" id="file">
+                    <br><br>
+
+                    <!-- Clients payment section -->
+                <h3> How do you wish to pay the host of your website?</h3>
+                 <select class="pay" name="payment">
+                   <option value="Cc">Credit card</option>
+                   <option value="Pp">Paypal</option>
+                   <option value="Db">Debit card</option>
+                   <option value="CashApp">Cash app</option>
+                 </select>
+                </div>
+
+                 <!-- Client's comment and suggestion/complaint box: -->
+                 <h3>How do you want your website to look like?</h3>
+                 <p>Feel free to upload any sample website to the comment/suggestion/complaint box</p>
+                 <textarea id="comments" name="Client's review" rows="8" cols="80" placeholder="Client's comments................ "></textarea>
+                 <br>
+                 <br>
+
+                 <input class="btn" type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
